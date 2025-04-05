@@ -1,0 +1,1272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Сайсары Кынат</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="description" content="Маркетплейс современного искусства">
+  <meta name="author" content="">
+  <meta name="keywords" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/flaticon.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    rel="stylesheet">
+
+</head>
+
+<body>
+
+
+
+  <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+    <defs>
+      <symbol xmlns="http://www.w3.org/2000/svg" id="heart" viewBox="0 0 24 24">
+        <path fill="currentColor"
+          d="M20.16 4.61A6.27 6.27 0 0 0 12 4a6.27 6.27 0 0 0-8.16 9.48l7.45 7.45a1 1 0 0 0 1.42 0l7.45-7.45a6.27 6.27 0 0 0 0-8.87Zm-1.41 7.46L12 18.81l-6.75-6.74a4.28 4.28 0 0 1 3-7.3a4.25 4.25 0 0 1 3 1.25a1 1 0 0 0 1.42 0a4.27 4.27 0 0 1 6 6.05Z" />
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" id="user" viewBox="0 0 24 24">
+        <path fill="currentColor"
+          d="M15.71 12.71a6 6 0 1 0-7.42 0a10 10 0 0 0-6.22 8.18a1 1 0 0 0 2 .22a8 8 0 0 1 15.9 0a1 1 0 0 0 1 .89h.11a1 1 0 0 0 .88-1.1a10 10 0 0 0-6.25-8.19ZM12 12a4 4 0 1 1 4-4a4 4 0 0 1-4 4Z" />
+      </symbol>
+    </defs>
+  </svg>
+
+  <div class="preloader-wrapper">
+    <div class="preloader">
+    </div>
+  </div>
+
+
+
+
+
+  <!--Начало шапки-->
+  <header>
+    <div class="container-fluid">
+      <div class="row py-3 border-bottom">
+        <div class="col-6 col-lg-3 text-center text-sm-start">
+          <div class="main-logo">
+            <a href="index.html">
+              <img src="images/logo.png" alt="logo" class="img-fluid">
+            </a>
+          </div>
+        </div>
+
+        <div class="col-6 d-lg-none text-end">
+          <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+            </svg>
+          </button>
+        </div>
+
+        <div class="col-lg-9 d-none d-lg-block">
+          <nav class="main-menu navbar navbar-expand-lg">
+            <ul class="navbar-nav ms-auto menu-list list-unstyled d-flex gap-md-3 mb-0">
+              <li class="nav-item">
+                <a href="index.html" class="nav-link">Главная</a>
+              </li>
+              <li class="nav-item">
+                <a href="catalog.html" class="nav-link">Каталог</a>
+              </li>
+              <li class="nav-item">
+                <a href="author.html" class="nav-link">Авторы</a>
+              </li>
+              <li class="nav-item">
+                <a href="about.html" class="nav-link">О нас</a>
+              </li>
+              <li class="nav-item">
+                <a href="blog.html" class="nav-link">Блог</a>
+              </li>
+              <li class="nav-item">
+                <a href="contact.html" class="nav-link">Контакты</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+
+    <!-- Оффканвас меню -->
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title">Меню</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav menu-list list-unstyled">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">Главная</a>
+          </li>
+          <li class="nav-item">
+            <a href="catalog.html" class="nav-link">Каталог</a>
+          </li>
+          <li class="nav-item">
+            <a href="author.html" class="nav-link">Авторы</a>
+          </li>
+          <li class="nav-item">
+            <a href="about.html" class="nav-link">О нас</a>
+          </li>
+          <li class="nav-item">
+            <a href="blog.html" class="nav-link">Блог</a>
+          </li>
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link">Контакты</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>
+  <!--Конец шапки-->
+
+  
+  <section class="py-3"
+    style="background-image: url('images/background.png');background-repeat: no-repeat;background-size: cover;">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12">
+
+          <div class="banner-blocks">
+
+            <div class="banner-ad large bg-info block-1">
+
+              <div class="swiper main-swiper">
+                <div class="swiper-wrapper">
+
+                  <div class="swiper-slide">
+                    <div class="row banner-content p-4 p-md-5">
+                      <div class="content-wrapper col-md-7">
+                        <div class="categories mb-3 my-md-5">100% Натуральные</div>
+                        <div class="img-wrapper col-md-5 d-md-none mb-3 text-center">
+                          <img src="images/012310.png" class="img-fluid mobile-img-75">
+                        </div>
+                        <h3 class="banner-title">Нагрудное украшение</h3>
+                        <p>Женское нагрудное украшение «Илин кэбиһэр» изготовлено из серебра по традиционным якутским
+                          мотивам.</p>
+                        <a href="#"
+                          class="btn btn-outline-dark btn-lg text-uppercase fs-6 rounded-1 px-4 py-3 mt-0 mt-md-3">Перейти</a>
+                      </div>
+                      <div class="img-wrapper col-md-5 d-none d-md-block">
+                        <img src="images/012310.png" class="img-fluid mobile-img-75">
+                      </div>
+                      <div class="py-3 py-md-0"></div>
+                    </div>
+                  </div>
+
+                  <div class="swiper-slide">
+                    <div class="row banner-content p-4 p-md-5">
+                      <div class="content-wrapper col-md-7">
+                        <div class="categories mb-3 my-md-5">100% Натуральные</div>
+                        <div class="img-wrapper col-md-5 d-md-none mb-3 text-center">
+                          <img src="images/якутский нож.png" class="img-fluid mobile-img-75">
+                        </div>
+                        <h3 class="banner-title">Нагрудное украшение</h3>
+                        <p>Якутские ножи, сочетающие традиции и качество</p>
+                        <a href="#"
+                          class="btn btn-outline-dark btn-lg text-uppercase fs-6 rounded-1 px-4 py-3 mt-0 mt-md-3">Перейти</a>
+                      </div>
+                      <div class="img-wrapper col-md-5 d-none d-md-block">
+                        <img src="images/сережки.png" class="img-fluid">
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="swiper-slide">
+                    <div class="row banner-content p-4 p-md-5">
+                      <div class="content-wrapper col-md-7">
+                        <div class="categories mb-3 my-md-5">100% прочность</div>
+                        <div class="img-wrapper col-md-5 d-md-none mb-3 text-center">
+                          <img src="images/якутский нож.png" class="img-fluid mobile-img-75">
+                        </div>
+                        <h3 class="banner-title">Олесов Альберт</h3>
+                        <p>Якутские ножи, сочетающие традиции и качество.</p>
+                        <a href="#"
+                          class="btn btn-outline-dark btn-lg text-uppercase fs-6 rounded-1 px-4 py-3 mt-0 mt-md-3">Перейти</a>
+                      </div>
+                      <div class="img-wrapper col-md-5 d-none d-md-block">
+                        <img src="images/якутский нож.png" class="img-fluid">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                
+
+                <div class="swiper-pagination"></div>
+
+              </div>
+            </div>
+
+            <div class="banner-ad bg-success-subtle block-2"
+              style="background:url('images/хомус.png') no-repeat;background-position: right bottom">
+              <div class="row banner-content p-4 p-md-5">
+
+                <div class="content-wrapper col-md-7">
+                  <div class="categories sale mb-3 pb-3 w-100 w-md-auto">20% от производителя</div>
+                  <h3 class="banner-title">Хомус-Музыка ветра в ваших руках.</h3>
+                  <div class="my-5 py-5 d-md-none"></div>
+                  <a href="#" class="d-flex align-items-center nav-link">Посмотреть <svg width="24" height="24">
+                      <use xlink:href="#arrow-right"></use>
+                    </svg></a>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="banner-ad bg-danger block-3"
+              style="background:url('images/хомус.png') no-repeat;background-position: right bottom">
+              <div class="row banner-content p-4 p-md-5">
+
+                <div class="content-wrapper col-md-7">
+                  <div class="categories sale mb-3 pb-3 w-100 w-md-auto">15% </div>
+                  <h3 class="banner-title">Хомус-Музыка ветра в ваших руках.</h3>
+                  <div class="my-5 py-5 d-md-none"></div>
+                  <a href="#" class="d-flex align-items-center nav-link">Посмотреть <svg width="24" height="24">
+                      <use xlink:href="#arrow-right"></use>
+                    </svg></a>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+          <!-- / Banner Blocks -->
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-5 overflow-hidden">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12">
+
+          <div class="section-header d-flex flex-wrap justify-content-between mb-5">
+            <h2 class="section-title">Категории</h2>
+
+            <div class="d-flex align-items-center">
+              <a href="catalog.html" class="btn-link text-decoration-none">Все →</a>
+              <div class="swiper-buttons">
+                <button class="swiper-prev category-carousel-prev btn btn-yellow">❮</button>
+                <button class="swiper-next category-carousel-next btn btn-yellow">❯</button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+
+          <div class="category-carousel swiper">
+            <div class="swiper-wrapper">
+              <a href="index.html" class="nav-link category-item swiper-slide">
+                <img src="images/живопись.png" alt="Category Thumbnail">
+                <h3 class="category-title">Живопись</h3>
+              </a>
+              <a href="index.html" class="nav-link category-item swiper-slide">
+                <img src="images/керамика.png" alt="Category Thumbnail">
+                <h3 class="category-title">Керамика</h3>
+              </a>
+              <a href="index.html" class="nav-link category-item swiper-slide">
+                <img src="images/графика.png" alt="Category Thumbnail">
+                <h3 class="category-title">Графика</h3>
+              </a>
+              <a href="index.html" class="nav-link category-item swiper-slide">
+                <img src="images/скульпутра.png" alt="Category Thumbnail">
+                <h3 class="category-title">Скульптура</h3>
+              </a>
+              <a href="index.html" class="nav-link category-item swiper-slide">
+                <img src="images/декор.png" alt="Category Thumbnail">
+                <h3 class="category-title">Декор</h3>
+              </a>
+              <a href="index.html" class="nav-link category-item swiper-slide">
+                <img src="images/ювелирка.png" alt="Category Thumbnail">
+                <h3 class="category-title">Ювелирия</h3>
+              </a>
+              <a href="index.html" class="nav-link category-item swiper-slide">
+                <img src="images/керамика.png" alt="Category Thumbnail">
+                <h3 class="category-title">Гончарство</h3>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="py-5 overflow-hidden">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12">
+
+          <div class="section-header d-flex flex-wrap flex-wrap justify-content-between mb-5">
+
+            <h2 class="section-title">Известные мастера Якутии</h2>
+
+            <div class="d-none d-md-block">
+              <div class="d-flex align-items-center">
+                <a href="author.html" class="btn-link text-decoration-none">Все →</a>
+                <div class="swiper-buttons">
+                  <button class="swiper-prev brand-carousel-prev btn btn-yellow">❮</button>
+                  <button class="swiper-next brand-carousel-next btn btn-yellow">❯</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+
+          <div class="brand-carousel swiper">
+            <div class="swiper-wrapper">
+
+              <div class="swiper-slide">
+                <div class="card mb-3 p-3 rounded-4 shadow border-0">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <figure>
+                        <a href="infoauthor.html">
+                          <img src="images/Осипов.jpg" class="img-fluid rounded" alt="Card title">
+                        </a> 
+                  </figure>
+                </div>
+                    <div class="col-md-8">
+                      <div class="card-body py-0 px-0 px-md-3">
+                        <h5 class="card-title mt-3 mt-md-0">Осипов Афанасий Николаевич</h5>
+                        <p class="text-muted mb-0">Подтверждая свое звание народного художника СССР, Афанасий объездил
+                          всю республику...</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card mb-3 p-3 rounded-4 shadow border-0">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="images/Мунхалов.jpg" class="img-fluid rounded" alt="Card title">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body py-0 px-0 px-md-3">
+                        <h5 class="card-title mt-3 mt-md-0">Афанасий Мунхалов</h5>
+                        <p class="text-muted mb-0"> Признан в республике и далеко за её пределами как крупнейший
+                          художник-график...</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card mb-3 p-3 rounded-4 shadow border-0">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="images/Спиродонов.jpg" class="img-fluid rounded" alt="Card title">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body py-0 px-0 px-md-3">
+                        <h5 class="card-title mt-3 mt-md-0">Юрий Спиридонов</h5>
+                        <p class="text-muted mb-0"> Художник, кто перед большим миром сумел раскрыть суровую красоту
+                          северной природы...</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card mb-3 p-3 rounded-4 shadow border-0">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="images/Чикачев.jpg" class="img-fluid rounded" alt="Card title">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body py-0 px-0 px-md-3">
+                        <h5 class="card-title mt-3 mt-md-0">Андрей Чикачев</h5>
+                        <p class="text-muted mb-0">Художник-живописец, один из ярких представителей современного
+                          искусства Республики Саха...</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card mb-3 p-3 rounded-4 shadow border-0">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="images/Старостин.jpg" class="img-fluid rounded" alt="Card title">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body py-0 px-0 px-md-3">
+                        <h5 class="card-title mt-3 mt-md-0">Михаил Старостин</h5>
+                        <p class="text-muted mb-0">Его живописные работы при всём разнообразии объединяет экспрессивная
+                          стилистика...</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="py-5">
+    <div class="container-fluid">
+
+      <div class="row">
+        <div class="col-md-12">
+
+          <div class="bootstrap-tabs product-tabs">
+            <div class="tabs-header d-flex flex-column flex-md-row justify-content-between border-bottom mt-0 mt-md-5 my-5">
+              <h3>Популярные</h3>
+              <nav>
+                <div class="nav nav-tabs justify-content-between justify-content-md-end" id="nav-tab" role="tablist">
+                  <a href="#" class="nav-link text-uppercase fs-6 active" id="nav-all-tab" data-bs-toggle="tab"
+                    data-bs-target="#nav-all">Все</a>
+                  <a href="#" class="nav-link text-uppercase fs-6" id="nav-fruits-tab" data-bs-toggle="tab"
+                    data-bs-target="#nav-fruits">Из серебра</a>
+                  <a href="#" class="nav-link text-uppercase fs-6" id="nav-juices-tab" data-bs-toggle="tab"
+                    data-bs-target="#nav-juices">Из золота</a>
+                </div>
+              </nav>
+            </div>
+            <div class="tab-content" id="nav-tabContent">
+              <div class="tab-pane fade show active" id="nav-all" role="tabpanel" aria-labelledby="nav-all-tab">
+                <div class="product-grid row row-cols-2 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5">
+
+                  <div class="col">
+                    <div class="product-item">
+                      <span class="badge bg-success position-absolute m-3">-30%</span>
+                      <figure>
+                        <a href="product-single.html" title="Product Title">
+                          <img src="images/ожерелье  (1).png" class="tab-image">
+                        </a>
+                      </figure>
+                      <h3>Григорьев Иннокнетий - Красота вечности</h3>
+                      <span class="qty">Серебро, камень, ручная работа.</span>
+                      <span class="price">15.000 рублей</span>
+                      <div class="d-flex align-items-center justify-content-between mt-2">
+                        <a href="product-single.html" class="buy-button w-100 text-decoration-none text-center">Посмотреть</a>
+                      </div>
+                    </div>
+                  </div>
+
+                    <div class="col">
+                      <div class="product-item">
+                        <span class="badge bg-success position-absolute m-3">-30%</span>
+                        <figure>
+                          <a href="product-single.html" title="Product Title">
+                            <img src="images/ожерелье  (1).png" class="tab-image">
+                          </a>
+                        </figure>
+                        <h3>Григорьев Иннокнетий - Красота вечности</h3>
+                        <span class="qty">Серебро, камень, ручная работа.</span>
+                        <span class="price">15.000 рублей</span>
+                        <div class="d-flex align-items-center justify-content-between mt-2">
+                          <a href="product-single.html" class="buy-button w-100 text-decoration-none text-center">Посмотреть</a>
+                        </div>
+                      </div>
+                    </div>
+ 
+                      <div class="col">
+                        <div class="product-item">
+                          <span class="badge bg-success position-absolute m-3">-30%</span>
+                          <figure>
+                            <a href="product-single.html" title="Product Title">
+                              <img src="images/ожерелье  (1).png" class="tab-image">
+                            </a>
+                          </figure>
+                          <h3>Григорьев Иннокнетий - Красота вечности</h3>
+                          <span class="qty">Серебро, камень, ручная работа.</span>
+                          <span class="price">15.000 рублей</span>
+                          <div class="d-flex align-items-center justify-content-between mt-2">
+                            <a href="product-single.html" class="buy-button w-100 text-decoration-none text-center">Посмотреть</a>
+                          </div>
+                        </div>
+                      </div>
+
+
+                  <div class="col">
+                    <div class="product-item">
+                      <span class="badge bg-success position-absolute m-3">-30%</span>
+                      <figure>
+                        <a href="product-single.html" title="Product Title">
+                          <img src="images/ожерелье  (1).png" class="tab-image">
+                        </a>
+                      </figure>
+                      <h3>Григорьев Иннокнетий - Красота вечности</h3>
+                      <span class="qty">Серебро, камень, ручная работа.</span>
+                      <span class="price">15.000 рублей</span>
+                      <div class="d-flex align-items-center justify-content-between mt-2">
+                        <a href="product-single.html" class="buy-button w-100 text-decoration-none text-center">Посмотреть</a>
+                      </div>
+                    </div>
+                  </div>
+
+
+                 
+
+                </div>
+                <!-- / product-grid -->
+
+              </div>
+
+              <div class="tab-pane fade" id="nav-fruits" role="tabpanel" aria-labelledby="nav-fruits-tab">
+                <div class="product-grid row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5">
+                  <div class="product-grid row row-cols-2 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5"></div>
+
+                  <div class="col">
+                    <div class="product-item">
+                      <span class="badge bg-success position-absolute m-3">-30%</span>
+                      <figure>
+                        <a href="index.html" title="Product Title">
+                          <img src="images/ожерелье  (1).png" class="tab-image">
+                        </a>
+                      </figure>
+                      <h3>Григорьев Иннокнетий - Красота вечности</h3>
+                      <span class="qty">Серебро, камень, ручная работа.</span>
+                      <span class="price">15.000 рублей</span>
+                      <div class="d-flex align-items-center justify-content-between mt-2">
+                        <button class="buy-button w-100">Посмотреть</button>
+                      </div>
+                    </div>
+                  </div>
+
+
+                  <div class="col">
+                    <div class="product-item">
+                      <span class="badge bg-success position-absolute m-3">-30%</span>
+                      <figure>
+                        <a href="index.html" title="Product Title">
+                          <img src="images/ожерелье  (1).png" class="tab-image">
+                        </a>
+                      </figure>
+                      <h3>Григорьев Иннокнетий - Красота вечности</h3>
+                      <span class="qty">Серебро, камень, ручная работа.</span>
+                      <span class="price">15.000 рублей</span>
+                      <div class="d-flex align-items-center justify-content-between mt-2">
+                        <button class="buy-button w-100">Посмотреть</button>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col">
+                    <div class="product-item">
+                      <span class="badge bg-success position-absolute m-3">-30%</span>
+                      <figure>
+                        <a href="index.html" title="Product Title">
+                          <img src="images/ожерелье  (1).png" class="tab-image">
+                        </a>
+                      </figure>
+                      <h3>Григорьев Иннокнетий - Красота вечности</h3>
+                      <span class="qty">Серебро, камень, ручная работа.</span>
+                      <span class="price">15.000 рублей</span>
+                      <div class="d-flex align-items-center justify-content-between mt-2">
+                        <button class="buy-button w-100">Посмотреть</button>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+                <!-- / product-grid -->
+
+              </div>
+              <div class="tab-pane fade" id="nav-juices" role="tabpanel" aria-labelledby="nav-juices-tab">
+
+                <div class="product-grid row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5">
+
+
+                  <div class="col">
+                    <div class="product-item">
+                      <span class="badge bg-success position-absolute m-3">-30%</span>
+                      <figure>
+                        <a href="index.html" title="Product Title">
+                          <img src="images/ожерелье  (1).png" class="tab-image">
+                        </a>
+                      </figure>
+                      <h3>Григорьев Иннокнетий - Красота вечности</h3>
+                      <span class="qty">Серебро, камень, ручная работа.</span>
+                      <span class="price">15.000 рублей</span>
+                      <div class="d-flex align-items-center justify-content-between mt-2">
+                        <button class="buy-button w-100">Посмотреть</button>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col">
+                    <div class="product-item">
+                      <span class="badge bg-success position-absolute m-3">-30%</span>
+                      <figure>
+                        <a href="index.html" title="Product Title">
+                          <img src="images/ожерелье  (1).png" class="tab-image">
+                        </a>
+                      </figure>
+                      <h3>Григорьев Иннокнетий - Красота вечности</h3>
+                      <span class="qty">Серебро, камень, ручная работа.</span>
+                      <span class="price">15.000 рублей</span>
+                      <div class="d-flex align-items-center justify-content-between mt-2">
+                        <button class="buy-button w-100">Посмотреть</button>
+                      </div>
+                    </div>
+                  </div>
+
+
+                </div>
+                <!-- / product-grid -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-5">
+  <div class="container-fluid">
+    <div class="row">
+      <h3 class="mb-4">Реклама</h3> <!-- Добавлен отступ снизу -->
+
+ <!-- Первый рекламный баннер -->
+ <div class="row g-3 g-md-4"> <!-- Добавлены промежутки между колонками -->
+      
+  <!-- Первый баннер -->
+  <div class="col-12 col-md-6">
+    <div class="ratio ratio-16x9 rounded-3 overflow-hidden shadow-sm"> <!-- Соотношение сторон 16:9 -->
+      <img src="images/Рекламный -1.PNG" 
+           alt="Природа Якутии — вдохновение искусства"
+           class="w-100 h-100 object-fit-cover"
+           loading="lazy"> <!-- Ленивая загрузка -->
+    </div>
+  </div>
+  
+  <!-- Второй баннер -->
+  <div class="col-12 col-md-6">
+    <div class="ratio ratio-16x9 rounded-3 overflow-hidden shadow-sm">
+      <img src="images/Рекламный -2.PNG" 
+           alt="Природа Якутии — вдохновение искусства"
+           class="w-100 h-100 object-fit-cover"
+           loading="lazy">
+    </div>
+  </div>
+
+      <div class="col-md-6 mb-3 mb-md-0"> <!-- Добавлен mb-3 для отступа снизу на мобилах -->
+        <div class="banner-ad bg-info"
+            style="background: url('images/');background-repeat: no-repeat;background-position: right bottom;">
+          
+          <!-- Декоративный элемент -->
+          <div class="position-absolute top-0 end-0 w-50 h-100 d-none d-md-block" 
+               style="background: url('https://via.placeholder.com/500x300') center/cover;"></div>
+          
+          <div class="banner-content p-3 p-md-4 position-relative z-2" style="max-width: 100%;">
+            <div class="categories text-primary fs-5 fs-md-4 fw-bold mb-1">НАЗВАНИЕ</div>
+            <h3 class="banner-title fw-bold fs-4 fs-md-3 mb-2">Здесь могла быть ваша реклама</h3>
+            <p class="mb-3 d-none d-sm-block">Информация</p>
+            <a href="#" class="btn btn-dark btn-shine text-uppercase px-3 py-2 fw-bold">
+              Подробнее
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="banner-ad bg-info"
+            style="background: url('images/');background-repeat: no-repeat;background-position: right bottom;">
+          
+          <!-- Декоративный элемент -->
+          <div class="position-absolute top-0 end-0 w-50 h-100 d-none d-md-block" 
+               style="background: url('https://via.placeholder.com/500x300') center/cover;"></div>
+          
+          <div class="banner-content p-3 p-md-4 position-relative z-2" style="max-width: 100%;">
+            <div class="categories text-primary fs-5 fs-md-4 fw-bold mb-1">НАЗВАНИЕ</div> <!-- Изменен текст -->
+            <h3 class="banner-title fw-bold fs-4 fs-md-3 mb-2">Здесь могла быть ваша реклама</h3> <!-- Изменен текст -->
+            <p class="mb-3 d-none d-sm-block">Информация</p> <!-- Изменен текст -->
+            <a href="#" class="btn btn-dark btn-shine text-uppercase px-3 py-2 fw-bold">
+              Подробнее
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+  <section class="py-5 overflow-hidden">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12">
+
+          <div class="section-header d-flex flex-wrap justify-content-between my-5">
+
+            <h2 class="section-title">Инсталляция якутской керамики</h2>
+
+            <div class="d-md-none w-100">
+              <div class="d-flex align-items-center justify-content-between">
+                <a href="#" class="btn-link text-decoration-none">Все →</a>
+                <div class="swiper-buttons">
+                  <button class="swiper-prev brand-carousel-prev btn btn-yellow">❮</button>
+                  <button class="swiper-next brand-carousel-next btn btn-yellow">❯</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="d-none d-md-block">
+              <div class="d-flex align-items-center">
+                <a href="#" class="btn-link text-decoration-none">Все →</a>
+                <div class="swiper-buttons">
+                  <button class="swiper-prev brand-carousel-prev btn btn-yellow">❮</button>
+                  <button class="swiper-next brand-carousel-next btn btn-yellow">❯</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+
+          <div class="products-carousel swiper">
+            <div class="swiper-wrapper">
+
+              <div class="product-item swiper-slide">
+                <span class="badge bg-success position-absolute m-3">-15%</span>
+                <figure>
+                  <a href="index.html" title="Product Title">
+                    <img src="images/Ынах.jpg" class="tab-image">
+                  </a>
+                </figure>
+                <h3>Анна Осипова -"Ынах"</h3>
+                <span class="qty">Печать, холст 67х100см</span>
+                <span class="qty">Символизм, животные</span>
+                <span class="price">13 000 рублей</span>
+                <div class="d-flex align-items-center justify-content-between mt-2">
+                  <a href="product-single.html" class="buy-button w-100 text-decoration-none text-center">Посмотреть</a>
+                </div>
+              </div>
+
+              <div class="product-item swiper-slide">
+                <span class="badge bg-success position-absolute m-3">-15%</span>
+                <figure>
+                  <a href="index.html" title="Product Title">
+                    <img src="images/Ынах.jpg" class="tab-image">
+                  </a>
+                </figure>
+                <h3>Анна Осипова -"Ынах"</h3>
+                <span class="qty">Печать, холст 67х100см</span>
+                <span class="qty">Символизм, животные</span>
+                <span class="price">13 000 рублей</span>
+                <div class="d-flex align-items-center justify-content-between mt-2">
+                  <a href="product-single.html" class="buy-button w-100 text-decoration-none text-center">Посмотреть</a>
+                </div>
+              </div>
+
+              <div class="product-item swiper-slide">
+                <span class="badge bg-success position-absolute m-3">-15%</span>
+                <figure>
+                  <a href="index.html" title="Product Title">
+                    <img src="images/Ынах.jpg" class="tab-image">
+                  </a>
+                </figure>
+                <h3>Анна Осипова -"Ынах"</h3>
+                <span class="qty">Печать, холст 67х100см</span>
+                <span class="qty">Символизм, животные</span>
+                <span class="price">13 000 рублей</span>
+                <div class="d-flex align-items-center justify-content-between mt-2">
+                  <a href="product-single.html" class="buy-button w-100 text-decoration-none text-center">Посмотреть</a>
+                </div>
+              </div>
+
+             
+
+
+            </div>
+          </div>
+          <!-- / products-carousel -->
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-5" style="background-image: url('images/background-2.png');background-repeat: no-repeat;background-size: cover;">
+    <div class="container-fluid">
+      <div class="bg-secondary py-5 my-5 rounded-5" style="background: url('images/bg-leaves-img-pattern.png') no-repeat;">
+        <div class="container my-md-5">
+          <div class="row">
+            <div class="col-md-6 p-md-5">
+              <div class="section-header">
+                <h2 class="section-title d-md-none">Напишите нам,<br>чтобы <span class="text-primary">мы загрузили </span>вашу работу</h2>
+                <h2 class="section-title display-4 d-none d-md-block">Напишите нам, чтобы <span class="text-primary">мы загрузили </span>вашу работу</h2>
+              </div>
+              <p class="mt-3 d-none d-md-block">Оставьте свои контактные данные, и мы свяжемся с вами для обсуждения деталей</p>
+            </div>
+            <div class="col-md-6 p-md-5">
+              <form id="feedbackForm" class="needs-validation" novalidate>
+                <div class="mb-3">
+                  <label for="name" class="form-label">Имя и фамилия*</label>
+                  <input type="text" class="form-control form-control-lg" name="name" id="name" placeholder="Имя и фамилия" required>
+                  <div class="invalid-feedback">Пожалуйста, укажите ваше имя</div>
+                </div>
+                <div class="mb-3">
+                  <label for="email" class="form-label">Электронная почта*</label>
+                  <input type="email" class="form-control form-control-lg" name="email" id="email" placeholder="abc@mail.ru" required>
+                  <div class="invalid-feedback">Пожалуйста, укажите корректный email</div>
+                </div>
+                <div class="form-check form-check-inline mb-3">
+                  <label class="form-check-label" for="subscribe">
+                    <input class="form-check-input" type="checkbox" id="subscribe" name="subscribe">
+                    Подписаться на рассылку
+                  </label>
+                </div>
+                <div class="d-grid gap-2">
+                  <button type="submit" class="btn btn-dark btn-lg">Отправить заявку</button>
+                </div>
+                <div class="mt-2 small text-muted">* Обязательные поля</div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Модальное окно успешной отправки -->
+  <div class="modal fade" id="successModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-body text-center p-4">
+          <h4 class="mb-3">Спасибо за вашу заявку!</h4>
+          <p>Мы свяжемся с вами в ближайшее время.</p>
+          <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Закрыть</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <section class="py-5 overflow-hidden">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="section-header d-flex justify-content-between my-5">
+            <h2 class="section-title">Ремесло</h2>
+            <div class="d-flex align-items-center">
+              <a href="#" class="btn-link text-decoration-none">Все →</a>
+              <div class="swiper-buttons">
+                <button class="swiper-prev products-carousel-prev btn btn-primary">❮</button>
+                <button class="swiper-next products-carousel-next btn btn-primary">❯</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+
+          <div class="products-carousel swiper">
+            <div class="swiper-wrapper">
+
+              <div class="product-item swiper-slide">
+                <figure>
+                  <a href="index.html" title="Product Title">
+                    <img src="images/якутский нож.png" class="tab-image">
+                  </a>
+                </figure>
+                <h3>Гаврил Федоров - северное сияние</h3>
+                <span class="qty">Сталь, дерево, кожа, ручная работа</span>
+                <span class="price">3000</span>
+                <div class="d-flex align-items-center justify-content-between mt-2">
+                  <a href="product-single.html" class="buy-button w-100 text-decoration-none text-center">Посмотреть</a>
+                </div>
+              </div>
+
+              <div class="product-item swiper-slide">
+                <figure>
+                  <a href="index.html" title="Product Title">
+                    <img src="images/якутский нож.png" class="tab-image">
+                  </a>
+                </figure>
+                <h3>Гаврил Федоров - северное сияние</h3>
+                <span class="qty">Сталь, дерево, кожа, ручная работа</span>
+                <span class="price">3000</span>
+                <div class="d-flex align-items-center justify-content-between mt-2">
+                  <a href="product-single.html" class="buy-button w-100 text-decoration-none text-center">Посмотреть</a>
+                </div>
+              </div>
+
+          </div>
+          <!-- / products-carousel -->
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-5 overflow-hidden">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12">
+
+          <div class="section-header d-flex justify-content-between my-5">
+
+            <h2 class="section-title">Керамика</h2>
+
+            <div class="d-flex align-items-center">
+              <a href="#" class="btn-link text-decoration-none">Все →</a>
+              <div class="swiper-buttons">
+                <button class="swiper-prev products-carousel-prev btn btn-primary">❮</button>
+                <button class="swiper-next products-carousel-next btn btn-primary">❯</button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+
+          <div class="products-carousel swiper">
+            <div class="swiper-wrapper">
+
+              <div class="product-item swiper-slide">
+                <figure>
+                  <a href="index.html" title="Product Title">
+                    <img src="images/Кытыйа.png" class="tab-image">
+                  </a>
+                </figure>
+                <h3>Эллэй- Кытыйа на ножках</h3>
+                <a href="#" class="nav-link">Фарфор <iconify-icon icon="uil:shopping-cart"></a>
+                <span class="price">750 рублей</span>
+                <div class="d-flex align-items-center justify-content-between mt-2">
+                  <a href="product-single.html" class="buy-button w-100 text-decoration-none text-center">Посмотреть</a>
+                </div>
+              </div>
+
+              <div class="product-item swiper-slide">
+                <figure>
+                  <a href="index.html" title="Product Title">
+                    <img src="images/Кытыйа.png" class="tab-image">
+                  </a>
+                </figure>
+                <h3>Эллэй- Кытыйа на ножках</h3>
+                <a href="#" class="nav-link">Фарфор <iconify-icon icon="uil:shopping-cart"></a>
+                <span class="price">750 рублей</span>
+                <div class="d-flex align-items-center justify-content-between mt-2">
+                  <a href="product-single.html" class="buy-button w-100 text-decoration-none text-center">Посмотреть</a>
+                </div>
+              </div>
+
+              <div class="product-item swiper-slide">
+                <figure>
+                  <a href="index.html" title="Product Title">
+                    <img src="images/Кытыйа.png" class="tab-image">
+                  </a>
+                </figure>
+                <h3>Эллэй- Кытыйа на ножках</h3>
+                <a href="#" class="nav-link">Фарфор <iconify-icon icon="uil:shopping-cart"></a>
+                <span class="price">750 рублей</span>
+                <div class="d-flex align-items-center justify-content-between mt-2">
+                  <a href="product-single.html" class="buy-button w-100 text-decoration-none text-center">Посмотреть</a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <!-- / products-carousel -->
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="latest-blog" class="py-5">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="section-header d-flex align-items-center justify-content-between my-5">
+          <h2 class="section-title">Мероприятия</h2>
+          <div class="btn-wrap align-right">
+            <a href="#" class="d-flex align-items-center nav-link">Все <svg width="24" height="24">
+                <use xlink:href="#arrow-right"></use>
+              </svg></a>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 mb-3 mb-md-0">
+          <article class="post-item card border-0 shadow-sm p-3">
+            <div class="image-holder zoom-effect">
+              <a href="#">
+                <img src="images/мероприятие.jpg" alt="post" class="card-img-top">
+              </a>
+            </div>
+            <div class="card-body">
+              <div class="post-meta d-flex text-uppercase gap-3 my-2 align-items-center">
+                <div class="meta-date"><svg width="16" height="16">
+                    <use xlink:href="#calendar"></use>
+                  </svg>1 июля 2024</div>
+              </div>
+              <div class="post-header">
+                <h3 class="post-title">
+                  <a href="#" class="text-decoration-none">Уникальные сувениры и мастер-классы. В Якутске стартовал
+                    фестиваль «Город мастеров»</a>
+                </h3>
+                <p>По словам организатора фестиваля, директора Национального центра народного прикладного искусства и
+                  художественных промыслов «Симэх» Яны Игнатьевой, мастер-классы охватят многие виды прикладного
+                  творчества.</p>
+              </div>
+            </div>
+          </article>
+        </div>
+        <div class="col-md-4  mb-3 mb-md-0">
+          <article class="post-item card border-0 shadow-sm p-3">
+            <div class="image-holder zoom-effect">
+              <a href="#">
+                <img src="images/мероприятие.jpg" alt="post" class="card-img-top">
+              </a>
+            </div>
+            <div class="card-body">
+              <div class="post-meta d-flex text-uppercase gap-3 my-2 align-items-center">
+                <div class="meta-date"><svg width="16" height="16">
+                    <use xlink:href="#calendar"></use>
+                  </svg>1 июля 2024</div>
+              </div>
+              <div class="post-header">
+                <h3 class="post-title">
+                  <a href="#" class="text-decoration-none">Уникальные сувениры и мастер-классы. В Якутске стартовал
+                    фестиваль «Город мастеров»</a>
+                </h3>
+                <p>По словам организатора фестиваля, директора Национального центра народного прикладного искусства и
+                  художественных промыслов «Симэх» Яны Игнатьевой, мастер-классы охватят многие виды прикладного
+                  творчества.</p>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-5">
+    <div class="container-fluid">
+      <h2 class="my-5">Также ищут</h2>
+      <a href="#" class="btn btn-warning me-2 mb-2">Картины природы</a>
+      <a href="#" class="btn btn-warning me-2 mb-2">Авторские украшения</a>
+      <a href="#" class="btn btn-warning me-2 mb-2">Скульптуры из камня и дерева</a>
+      <a href="#" class="btn btn-warning me-2 mb-2">Современные художники</a>
+      <a href="#" class="btn btn-warning me-2 mb-2">Мастер-классы</a>
+      <a href="#" class="btn btn-warning me-2 mb-2">Выставики</a>
+      <a href="#" class="btn btn-warning me-2 mb-2">Из натуральной кожи</a>
+
+    </div>
+  </section>
+<section class="features-section py-5">
+  <div class="container-fluid">
+    <div class="row row-cols-1 row-cols-sm-3 row-cols-lg-5 g-4">
+      <div class="col">
+        <div class="card h-100 mb-3 border-0 shadow-sm">
+          <div class="row g-0">
+            <div class="col-md-2 text-dark text-center text-md-start">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="currentColor" d="M21.5 15a3 3 0 0 0-1.9-2.78l1.87-7a1 1 0 0 0-.18-.87A1 1 0 0 0 20.5 4H6.8l-.33-1.26A1 1 0 0 0 5.5 2h-2v2h1.23l2.48 9.26a1 1 0 0 0 1 .74H18.5a1 1 0 0 1 0 2h-13a1 1 0 0 0 0 2h1.18a3 3 0 1 0 5.64 0h2.36a3 3 0 1 0 5.82 1a2.94 2.94 0 0 0-.4-1.47A3 3 0 0 0 21.5 15Zm-3.91-3H9L7.34 6H19.2ZM9.5 20a1 1 0 1 1 1-1a1 1 0 0 1-1 1Zm8 0a1 1 0 1 1 1-1a1 1 0 0 1-1 1Z"/></svg>
+            </div>
+            <div class="col-md-10">
+              <div class="card-body p-0 ps-md-3">
+                <h5>Большой выбор</h5>
+                <p class="card-text">У нас представлены тысячи уникальных произведений, чтобы каждый мог найти что-то по своему вкусу.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col">
+        <div class="card h-100 mb-3 border-0 shadow-sm">
+          <div class="row g-0">
+            <div class="col-md-2 text-dark text-center text-md-start">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="currentColor" d="M19.63 3.65a1 1 0 0 0-.84-.2a8 8 0 0 1-6.22-1.27a1 1 0 0 0-1.14 0a8 8 0 0 1-6.22 1.27a1 1 0 0 0-.84.2a1 1 0 0 0-.37.78v7.45a9 9 0 0 0 3.77 7.33l3.65 2.6a1 1 0 0 0 1.16 0l3.65-2.6A9 9 0 0 0 20 11.88V4.43a1 1 0 0 0-.37-.78ZM18 11.88a7 7 0 0 1-2.93 5.7L12 19.77l-3.07-2.19A7 7 0 0 1 6 11.88v-6.3a10 10 0 0 0 6-1.39a10 10 0 0 0 6 1.39Zm-4.46-2.29l-2.69 2.7l-.89-.9a1 1 0 0 0-1.42 1.42l1.6 1.6a1 1 0 0 0 1.42 0L15 11a1 1 0 0 0-1.42-1.42Z"/></svg>
+            </div>
+            <div class="col-md-10">
+              <div class="card-body p-0 ps-md-3">
+                <h5>Безопасная оплата товара</h5>
+                <p class="card-text">Все транзакции защищены современными технологиями шифрования</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col">
+        <div class="card h-100 mb-3 border-0 shadow-sm">
+          <div class="row g-0">
+            <div class="col-md-2 text-dark text-center text-md-start">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="currentColor" d="M22 5H2a1 1 0 0 0-1 1v4a3 3 0 0 0 2 2.82V22a1 1 0 0 0 1 1h16a1 1 0 0 0 1-1v-9.18A3 3 0 0 0 23 10V6a1 1 0 0 0-1-1Zm-7 2h2v3a1 1 0 0 1-2 0Zm-4 0h2v3a1 1 0 0 1-2 0ZM7 7h2v3a1 1 0 0 1-2 0Zm-3 4a1 1 0 0 1-1-1V7h2v3a1 1 0 0 1-1 1Zm10 10h-4v-2a2 2 0 0 1 4 0Zm5 0h-3v-2a4 4 0 0 0-8 0v2H5v-8.18a3.17 3.17 0 0 0 1-.6a3 3 0 0 0 4 0a3 3 0 0 0 4 0a3 3 0 0 0 4 0a3.17 3.17 0 0 0 1 .6Zm2-11a1 1 0 0 1-2 0V7h2ZM4.3 3H20a1 1 0 0 0 0-2H4.3a1 1 0 0 0 0 2Z"/></svg>
+            </div>
+            <div class="col-md-10">
+              <div class="card-body p-0 ps-md-3">
+                <h5>Возврат товара</h5>
+                <p class="card-text">Оформление возврата сразу в пункте выдачи.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col">
+        <div class="card h-100 mb-3 border-0 shadow-sm">
+          <div class="row g-0">
+            <div class="col-md-2 text-dark text-center text-md-start">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="currentColor" d="M12 8.35a3.07 3.07 0 0 0-3.54.53a3 3 0 0 0 0 4.24L11.29 16a1 1 0 0 0 1.42 0l2.83-2.83a3 3 0 0 0 0-4.24A3.07 3.07 0 0 0 12 8.35Zm2.12 3.36L12 13.83l-2.12-2.12a1 1 0 0 1 0-1.42a1 1 0 0 1 1.41 0a1 1 0 0 0 1.42 0a1 1 0 0 1 1.41 0a1 1 0 0 1 0 1.42ZM12 2A10 10 0 0 0 2 12a9.89 9.89 0 0 0 2.26 6.33l-2 2a1 1 0 0 0-.21 1.09A1 1 0 0 0 3 22h9a10 10 0 0 0 0-20Zm0 18H5.41l.93-.93a1 1 0 0 0 0-1.41A8 8 0 1 1 12 20Z"/></svg>
+            </div>
+            <div class="col-md-10">
+              <div class="card-body p-0 ps-md-3">
+                <h5>Личные встречи</h5>
+                <p class="card-text">Возможность встретиться с продавцом и обсудить их работы.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col">
+        <div class="card h-100 mb-3 border-0 shadow-sm">
+          <div class="row g-0">
+            <div class="col-md-2 text-dark text-center text-md-start">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="currentColor" d="M18 7h-.35A3.45 3.45 0 0 0 18 5.5a3.49 3.49 0 0 0-6-2.44A3.49 3.49 0 0 0 6 5.5A3.45 3.45 0 0 0 6.35 7H6a3 3 0 0 0-3 3v2a1 1 0 0 0 1 1h1v6a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3v-6h1a1 1 0 0 0 1-1v-2a3 3 0 0 0-3-3Zm-7 13H8a1 1 0 0 1-1-1v-6h4Zm0-9H5v-1a1 1 0 0 1 1-1h5Zm0-4H9.5A1.5 1.5 0 1 1 11 5.5Zm2-1.5A1.5 1.5 0 1 1 14.5 7H13ZM17 19a1 1 0 0 1-1 1h-3v-7h4Zm2-8h-6V9h5a1 1 0 0 1 1 1Z"/></svg>
+            </div>
+            <div class="col-md-10">
+              <div class="card-body p-0 ps-md-3">
+                <h5>Ежедневные предложения</h5>
+                <p class="card-text">Уникальные скидки от производителей</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!--Кнопка наверх-->
+  <button id="backToTop" class="back-to-top">
+    <svg width="24" height="24" viewBox="0 0 24 24">
+      <path fill="currentColor" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"/>
+    </svg>
+  </button>
+
+  <!--начало подвала-->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Логотип и описание -->
+        <div class="footer-brand">
+          <img src="images/logo.png" alt="Логотип" class="footer-logo">
+          <p class="footer-description">Платформа для поддержки якутских мастеров и ремесленников</p>
+        </div>
+  
+        <!-- Меню "Компания" -->
+        <div class="footer-nav">
+          <h3 class="footer-title">Компания</h3>
+          <ul class="footer-menu">
+            <li><a href="#" class="footer-link">О нас</a></li>
+            <li><a href="#" class="footer-link">Условия</a></li>
+            <li><a href="#" class="footer-link">Карьера</a></li>
+            <li><a href="#" class="footer-link">Партнерская программа</a></li>
+          </ul>
+        </div>
+  
+        <!-- Меню "Обслуживание клиентов" -->
+        <div class="footer-nav">
+          <h3 class="footer-title">Обслуживание клиентов</h3>
+          <ul class="footer-menu">
+            <li><a href="#" class="footer-link">FAQ</a></li>
+            <li><a href="#" class="footer-link">Контакты</a></li>
+            <li><a href="#" class="footer-link">Политика конфиденциальности</a></li>
+            <li><a href="#" class="footer-link">Возврат</a></li>
+            <li><a href="#" class="footer-link">Рекомендации Cookies</a></li>
+            <li><a href="#" class="footer-link">Информация о доставке</a></li>
+          </ul>
+        </div>
+  
+        <!-- Форма подписки -->
+        <div class="footer-subscribe">
+          <h3 class="footer-title">Подпишитесь на нас</h3>
+          <p class="subscribe-text">Получайте новости о наших предложениях и мероприятиях</p>
+          <form class="subscribe-form">
+            <div class="input-group">
+              <input type="email" placeholder="Ваш email" required class="form-input">
+              <button type="submit" class="submit-button">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M4 4H20C21.1 4 22 4.9 22 6V18C22 19.1 21.1 20 20 20H4C2.9 20 2 19.1 2 18V6C2 4.9 2.9 4 4 4Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M22 6L12 13L2 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </button>
+            </div>
+          </form>
+          <div class="social-links">
+            <a href="#" class="social-link" aria-label="Facebook">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+            </a>
+            
+          </div>
+        </div>
+      </div>
+  
+      <div class="footer-bottom">
+        <p class="copyright">&copy; 2023 Сайсары Кынат. Все права защищены.</p>
+      </div>
+    </div>
+  </footer>
+  
+  <script src="js/jquery-1.11.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+  <script src="js/plugins.js"></script>
+  <script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+  <script src="js/google-map.js"></script>
+  <script src="js/script.js?v=1"></script>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/scrollax.min.js"></script>
+  <script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+  <script src="js/google-map.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/js/bootstrap-select.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
