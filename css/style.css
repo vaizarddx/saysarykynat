@@ -355,44 +355,7 @@ h3 {
   border: 1px solid transparent;
 }
 
-.bs-popover-bottom .popover-header::before,
-.bs-popover-auto[x-placement^="bottom"] .popover-header::before {
-  position: absolute;
-  top: 0;
-  left: 50%;
-  display: block;
-  width: 1rem;
-  margin-left: -0.5rem;
-  content: "";
-  border-bottom: 1px solid #f7f7f7;
-}
-.popover-header {
-  padding: 0.5rem 0.75rem;
-  margin-bottom: 0;
-  font-size: 1rem;
-  color: inherit;
-  background-color: #f7f7f7;
-  border-bottom: 1px solid #ebebeb;
-  border-top-left-radius: calc(0.3rem - 1px);
-  border-top-right-radius: calc(0.3rem - 1px);
-}
-.popover-header:empty {
-  display: none;
-}
-:root {
-  /* widths for rows and containers
- */
-  --header-height: 160px;
-  --header-height-min: 80px;
-}
-/* on mobile devices below 600px
-*/
-@media screen and (max-width: 600px) {
-  :root {
-    --header-height: 100px;
-    --header-height-min: 80px;
-  }
-}
+
 article,
 aside,
 figcaption,
@@ -1647,6 +1610,7 @@ section {
   align-items: center;
   justify-content: center;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+  z-index: 1000;
 }
 
 .back-to-top.show {
@@ -1655,9 +1619,10 @@ section {
 }
 
 .back-to-top:hover {
-  background: #95cc90;
+  background: #78a874;
   transform: translateY(-2px);
 }
+
 
 @media (max-width: 767px) {
   .back-to-top {
@@ -1686,6 +1651,15 @@ section {
 
   header {
     transition: all 0.3s ease;
+  }
+  .icon-link {
+    color: inherit;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+  }
+  .icon-link:hover {
+    color: #78a874; /* или любой другой цвет по вашему дизайну */
   }
 
   .product-item {
@@ -1950,4 +1924,25 @@ section {
     font-size: 0.95rem;
   }
 }
+
+.favorite-btn {
+  z-index: 1;
+  background-color: rgba(255, 255, 255, 0.8) !important;
+  border-radius: 50% !important;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+
+.favorite-btn:hover {
+  background-color: rgba(255, 255, 255, 0.9) !important;
+}
+
+.bi-heart-fill.text-danger {
+  fill: #dc3545;
+}
+
 

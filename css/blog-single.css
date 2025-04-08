@@ -14,9 +14,9 @@
   }
   
   .news-header {
-    background: #F18F76;
+    background: #000;
     color: white;
-    padding: 100px 0;
+    padding: 50px 0;
     margin-bottom: 40px;
     position: relative;
   }

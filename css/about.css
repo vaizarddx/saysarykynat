@@ -124,14 +124,14 @@
   
   /* Стили для секции с изображением и текстом */
   .ftco-section {
-    padding: 4rem 0;
+    padding: 0.5rem 0;
     background-color: white;
   }
   
   .img {
     min-height: 400px;
     border-radius: 12px;
-    background-size: cover;
+    background-size:120%;
     background-position: center;
   }
   
@@ -152,37 +152,6 @@
     margin-bottom: 1.5rem;
   }
   
-  /* Стили для секции команды */
-  .team-section {
-    padding: 3rem 0;
-    background-color: #f8f9fa;
-  }
-  
-  .team-card {
-    transition: all 0.3s ease;
-  }
-  
-  .team-img {
-    transition: all 0.3s ease;
-    border: 3px solid white;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  }
-  
-  .team-card:hover .team-img {
-    transform: scale(1.05);
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
-  }
-  
-  .team-card h4 {
-    color: #2d3748;
-    font-weight: 600;
-    margin-top: 0.5rem;
-  }
-  
-  .team-card p {
-    color: #718096;
-    font-size: 0.875rem;
-  }
   
   /* Адаптивные стили */
   @media (max-width: 767.98px) {

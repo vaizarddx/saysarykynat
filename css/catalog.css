@@ -126,11 +126,7 @@
     color: #495057;
     transition: all 0.3s;
   }
-  
-  .btn-wishlist:hover {
-    color: #dc3545;
-    transform: scale(1.1);
-  }
+
   
   .product-item figure {
     margin-bottom: 15px;
