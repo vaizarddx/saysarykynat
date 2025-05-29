@@ -1,0 +1,238 @@
+:root {
+    --primary-color: #F18F76;
+    --secondary-color: #f8f9fa;
+    --success-color: #78a874;
+    --warning-color: #f6c23e;
+    --danger-color: #e74a3b;
+    --dark-color: #5a5c69;
+    --light-color: #f8f9fc;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+.profile-header {
+    border-radius: 15px;
+    overflow: hidden;
+    color: white;
+    padding: 3rem 0;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-bottom: 2rem;
+    background: white;
+}
+
+.seller-avatar {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 5px solid white;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.seller-name {
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    margin-top: 1rem;
+
+}
+
+.seller-specialty {
+    color: black;
+    font-size: 1.2rem;
+    opacity: 0.9;
+}
+
+.social-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1.2rem;
+    margin: 0 5px;
+    transition: all 0.3s ease;
+}
+
+.social-icon:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+
+
+.telegram {
+    background-color: #0088cc;
+}
+
+.vk {
+    background-color: #4a76a8;
+}
+
+.whatsapp {
+    background-color: #25D366;
+}
+
+.profile-card {
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-bottom: 2rem;
+    background: white;
+}
+
+.profile-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.product-card {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    height: 100%;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.product-card .card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.product-card .card-body {
+    padding: 1.5rem;
+}
+
+.product-card .card-title {
+    font-weight: 600;
+    margin-bottom: 0.75rem;
+}
+
+.product-card .card-text {
+    color: var(--primary-color);
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.section-title {
+    font-weight: 700;
+    color: var(--dark-color);
+    margin-bottom: 1.5rem;
+    position: relative;
+    padding-bottom: 0.5rem;
+}
+
+.section-title:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 50px;
+    height: 3px;
+    background-color: var(--primary-color);
+}
+
+.about-seller {
+    background: white;
+    border-radius: 15px;
+    padding: 2rem;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.stats-item {
+    text-align: center;
+    padding: 1rem;
+}
+
+.stats-number {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
+.stats-label {
+    color: #6c757d;
+    font-size: 0.9rem;
+}
+
+.contact-btn {
+    border-radius: 50px;
+    padding: 0.75rem 2rem;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.whatsapp-btn {
+    background-color: var(--success-color);
+    border-color: var(--success-color);
+}
+
+.whatsapp-btn:hover {
+    background-color: #1aa873;
+    border-color: #1aa873;
+}
+
+.telegram-btn {
+    background-color: #0088cc;
+    border-color: #0088cc;
+}
+
+
+@media (max-width: 767.98px) {
+    .seller-avatar {
+        width: 120px;
+        height: 120px;
+    }
+    
+    .profile-header {
+        padding: 2rem 0;
+    }
+    
+    .seller-name {
+        font-size: 1.5rem;
+    }
+}
+
+/* Галерея товаров */
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.swiper-slide img {
+    display: block;
+    border-image-width: 100px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+    font-family: 'swiper-icons';
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--primary-color);
+}

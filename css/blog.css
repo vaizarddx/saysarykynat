@@ -1,0 +1,122 @@
+.main-banner {
+    width: 100%;
+    height: 50%;
+    margin: 1px 1px;
+    padding: 0 ;
+  }
+  
+  .banner-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0;
+  }
+  
+  .banner-image {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: contain;
+  }
+  
+  /* Адаптивные отступы */
+  @media (max-width: 1600px) {
+    .banner-grid {
+      padding: 0 20px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .banner-grid {
+      padding: 0 15px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .banner-grid {
+      padding: 0 10px;
+    }
+  }
+  .grayscale {
+    filter: grayscale(100%);
+  }
+  
+  .accessibility-panel {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+    background: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  }
+  
+  
+  
+  body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  a {
+    color: var(--link-color);
+  }
+  
+  
+      /* Панель доступности */
+      .accessibility-panel {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        z-index: 1000;
+        background: var(--card-bg);
+        color: var(--text-color);
+        padding: 10px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.5);
+        border: 1px solid var(--border-color);
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+      }
+      
+      .accessibility-btn {
+        background: var(--card-bg);
+        color: var(--text-color);
+        border: 1px solid var(--border-color);
+        border-radius: 3px;
+        padding: 5px 10px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+      }
+      
+      /* Увеличенный шрифт */
+      .large-text {
+        font-size: 1.2rem;
+        line-height: 1.6;
+      }
+      
+      .larger-text {
+        font-size: 1.4rem;
+        line-height: 1.8;
+      }
+          /* Темная тема */
+          .dark-mode {
+            --bg-color: #383838;
+            --text-color: #919191;
+            --link-color: #000000;
+            --header-bg: #1a1a1a;
+            --footer-bg: #1a1a1a;
+            --border-color: #444;
+            --card-bg: #2d2d2d;
+            --input-bg: #333;
+            --input-text: #e0e0e0;
+          }
+          
+        
